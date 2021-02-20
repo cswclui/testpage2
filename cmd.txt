@@ -1,0 +1,3 @@
+docker run --name myblog --rm -it --volume="d:\work\jekyll:/srv/jekyll" -v d:\work\vendor\bundle:/usr/local/bundle -p 4000:4000  jekyll/jekyll:3.5 jekyll serve
+
+docker run --name myblog --rm -it --volume="d:\work\jekyll:/srv/jekyll" -v d:\work\vendor\bundle:/usr/gem -p 4000:4000  jekyll/jekyll:latest jekyll serve
